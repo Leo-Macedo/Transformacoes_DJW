@@ -8,13 +8,19 @@ ctx.strokeStyle= 'black';
 ctx.strokeRect(0,0,2000,2000);
 //cabeça
 ctx.beginPath();
-ctx.arc(400, 200, 100, Math.PI* 1.7, Math.PI * 0.15, true);
+ctx.arc(400, 200, 100, Math.PI* 1.7, Math.PI * 0.13, true);
 ctx.stroke();
 
 //nariz
 ctx.beginPath();
-ctx.lineTo(450,190);
-ctx.bezierCurveTo(535,190,535,250,450,250);
+ctx.moveTo(450,190);
+ctx.lineTo(490,190);
+ctx.arc(490,215,25,Math.PI*1.5,Math.PI*0.5,false);
+ctx.moveTo(450,240);
+ctx.lineTo(490,240);
+//ctx.lineTo(450,190);
+
+//ctx.bezierCurveTo(535,190,535,250,450,250);
 ctx.stroke();
 
 //olhos
@@ -146,3 +152,6 @@ ctx.quadraticCurveTo(232,565,240,550);
 ctx.moveTo(212,580);
 ctx.quadraticCurveTo(209,565,217,550);
 ctx.stroke();
+
+
+
