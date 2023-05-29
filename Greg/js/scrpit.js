@@ -37,9 +37,10 @@ ctx.fill();
 
 //boca
 ctx.beginPath();
-ctx.lineTo(350,275);
-ctx.quadraticCurveTo(390,255,430,275);
+ctx.lineTo(350,265);
+ctx.quadraticCurveTo(390,290,430,265);
 ctx.stroke();
+
 
 //orelha
 ctx.beginPath();
@@ -152,6 +153,54 @@ ctx.quadraticCurveTo(232,565,240,550);
 ctx.moveTo(212,580);
 ctx.quadraticCurveTo(209,565,217,550);
 ctx.stroke();
+
+//perna 1
+ctx.beginPath();
+ctx.moveTo(265,652);
+ctx.quadraticCurveTo(285,750,265,860);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(290,652);
+ctx.quadraticCurveTo(310,750,290,870);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(270,800);
+ctx.lineTo(300,800);
+ctx.stroke();
+
+//perna 2
+ctx.beginPath();
+ctx.moveTo(310,632);
+ctx.quadraticCurveTo(340,760,320,860);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(335,632);
+ctx.quadraticCurveTo(355,750,350,870);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(325,800);
+ctx.lineTo(350,800);
+ctx.stroke();
+
+//sapatos
+ctx.beginPath();
+ctx.moveTo(320,860);
+ctx.quadraticCurveTo(500,910,350,920);
+ctx.lineTo(320,930);
+ctx.lineTo(320,860);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.lineWidth='13';
+ctx.moveTo(260,860);
+ctx.quadraticCurveTo(445,950,255,920);
+ctx.quadraticCurveTo(240,875,265,860);
+ctx.stroke();
+ctx.fill();
 
 
 
