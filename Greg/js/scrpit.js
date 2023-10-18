@@ -157,12 +157,12 @@ ctx.stroke();
 //perna 1
 ctx.beginPath();
 ctx.moveTo(265,652);
-ctx.quadraticCurveTo(285,750,265,860);
+ctx.quadraticCurveTo(285,750,265,870);
 ctx.stroke();
 
 ctx.beginPath();
 ctx.moveTo(290,652);
-ctx.quadraticCurveTo(310,750,290,870);
+ctx.quadraticCurveTo(310,750,290,876);
 ctx.stroke();
 
 ctx.beginPath();
@@ -196,9 +196,9 @@ ctx.stroke();
 
 ctx.beginPath();
 ctx.lineWidth='13';
-ctx.moveTo(260,860);
+ctx.moveTo(260,870);
 ctx.quadraticCurveTo(445,950,255,920);
-ctx.quadraticCurveTo(240,875,265,860);
+ctx.quadraticCurveTo(240,875,265,870);
 ctx.stroke();
 ctx.fill();
 
