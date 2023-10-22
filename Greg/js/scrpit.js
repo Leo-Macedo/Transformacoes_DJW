@@ -61,7 +61,7 @@
         ctx.quadraticCurveTo(390,200,1000,500);
         ctx.stroke();
 
-        //arbustos
+        //pedras
         ctx.lineWidth= '7';
         ctx.beginPath();
         ctx.moveTo(200,400);
