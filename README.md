@@ -107,17 +107,7 @@ Ele cria um retângulo de 1000 de largura por 500 de altura que limpa toda a tel
 # Diagrama de Classes
 <img src="img/diagrama.png"><br>
 # Como usar o Git Bash
-1. Criar um repositório<br>
-2. Criar uma pasta e abrir com git besh<br><br>
-COMANDOS:<br><br>
-3. git init//inicializa o repositório<br>
-4. git remote add origin (link do repositório) //associa o repositório ao servidor com a pasta<br>
-5. git pull --allow-unrelated-histories (link do repositório) //recupera os arquivos do servidor e mescla com os arquivos locais que já existirem nos diretórios<br>
-6. git checkout -b main muda a branch de master para main<br>
-7. git add. //adiciona todos os arquivos pendentes ou git add nome do arquivo para adicionar um especifico<br>
-8. git commit -am "comentário" //envia o commit para o repositório<br>
-9. git push origin main //efetua o push enviando os commits aoservidor branch<br>
-*git status // exibe as alterações pendentes<br>
+<img src="img/git1.jpg"><br>
 
 # Código Git Bash
 <img src="img/git.jpg">
