@@ -108,7 +108,7 @@ Ele cria um retângulo de 1000 de largura por 500 de altura que limpa toda a tel
 <img src="img/diagrama.png"><br>
 # Como usar o Git Bash
 1. Criar um repositório<br>
-2. Criar uma pasta e abrir com git besh<br>
+2. Criar uma pasta e abrir com git besh<br><br>
 COMANDOS:<br><br>
 3. git init//inicializa o repositório<br>
 4. git remote add origin (link do repositório) //associa o repositório ao servidor com a pasta<br>
