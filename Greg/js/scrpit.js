@@ -102,7 +102,7 @@
     }
     function greg(){   
         ctx.translate(xgreg, ygreg);
-        ctx.rotate(rgreg); 
+        ctx.rotate(rgreg * Math.PI / 180); 
         ctx.scale(sgreg, sgreg);   
         //cabeça
         ctx.lineWidth= 7;
@@ -311,7 +311,7 @@
             sgreg -= 0.01;
         }
         if(event.key === ' '){
-            rgreg += 1;
+            rgreg += 10;
         }
         if(event.key === 'd' || event.key === 'D'){
             xgreg += velogreg;
