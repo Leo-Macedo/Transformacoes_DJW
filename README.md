@@ -28,7 +28,7 @@ Translada o contexto do canvas pelas coordenadas (xgreg, ygreg). Ou seja, move o
 ### Movimento pelas teclas
 Dependendo da tecla pressionada (W, A, S ou D), as variáveis xgreg e ygreg são ajustadas de acordo, movendo o personagem na tela. A velocidade do movimento é controlada pela variável velogreg.
 ## Transform
-Esse também utilizamos em rotação e escala que edefine a transformação do contexto para a matriz de identidade. Isso anula qualquer transformação anterior, garantindo que as próximas operações afetem o contexto de forma isolada.<br>
+Esse também utilizamos em rotação e escala que define a transformação do contexto para a matriz de identidade. Isso anula qualquer transformação anterior, garantindo que as próximas operações afetem o contexto de forma isolada.<br>
 # Translação funcionando
 
 https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/cae0e463-439d-4fbf-a9c7-b80cb3193c3a
@@ -107,7 +107,17 @@ Ele cria um retângulo de 1000 de largura por 500 de altura que limpa toda a tel
 # Diagrama de Classes
 <img src="img/diagrama.png"><br>
 # Como usar o Git Bash
-<img src="img/git1.jpg"><br>
+1. Criar um repositório<br>
+2. Criar uma pasta e abrir com git besh<br>
+COMANDOS:<br><br>
+3. git init//inicializa o repositório<br>
+4. git remote add origin (link do repositório) //associa o repositório ao servidor com a pasta<br>
+5. git pull --allow-unrelated-histories (link do repositório) //recupera os arquivos do servidor e mescla com os arquivos locais que já existirem nos diretórios<br>
+6. git checkout -b main muda a branch de master para main<br>
+7. git add. //adiciona todos os arquivos pendentes ou git add nome do arquivo para adicionar um especifico<br>
+8. git commit -am "comentário" //envia o commit para o repositório<br>
+9. git push origin main //efetua o push enviando os commits aoservidor branch<br>
+*git status // exibe as alterações pendentes<br>
 
 # Código Git Bash
 <img src="img/git.jpg">
