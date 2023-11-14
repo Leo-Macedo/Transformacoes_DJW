@@ -1,3 +1,5 @@
+# Obeservação
+Adicionei os vídeos que bugaram ao passar o repositório de público para privado.<br>
 # Atividade de tranformações no canvas
 # Feito por: Leonardo Macêdo e Miguel Oliveira
 # Descrição
@@ -7,7 +9,9 @@ Essa é uma ativade que vamos implementar as funções: Traslação, Rotação, 
 O Greg nós fizemos utilizando: linhas, quadrados, curvas e círculos.<br>
 ## Código do Greg
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/5f7c70f2-b08b-4472-9a91-a9d063683106
+
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/f1fcadc7-7191-4925-b275-5f0f0c0e2ee9
+
 
 <br>
 
@@ -17,7 +21,9 @@ A paisagem nós fizemos utilizando: curvas e círculos. Fizemos nuvens, pedras e
 
 ## Código da paisagem
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/43d3c0b5-d0d3-4f47-9913-5585ba46b02a
+
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/4f1be9bc-9811-43cc-92aa-f7b6e0732165
+
 
 # Translação
 <img src="img/trans.jpg"><br>
@@ -31,7 +37,9 @@ Dependendo da tecla pressionada (W, A, S ou D), as variáveis xgreg e ygreg são
 Esse também utilizamos em rotação e escala que define a transformação do contexto para a matriz de identidade. Isso anula qualquer transformação anterior, garantindo que as próximas operações afetem o contexto de forma isolada.<br>
 # Translação funcionando
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/cae0e463-439d-4fbf-a9c7-b80cb3193c3a
+
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/7294efb8-5ea3-44ca-a456-075bc1c064ff
+
 
 <br>
 
@@ -49,7 +57,9 @@ Quando a tecla pressionada é a barra de espaço (' '), o valor de rgreg é incr
 
 # Rotação funcionando
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/9f3213a2-e449-43cd-bc5d-e03ad9bd043d
+
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/9b4b86e0-1094-4c41-a234-458447784bd9
+
 
 <br>
 
@@ -68,7 +78,9 @@ Se a tecla pressionada for '2', sgreg é decrementado por 0.01 e diminui 1% seu 
 
 # Escala funcionando
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/028cfcac-484e-48b4-ab72-299a5c1f64cf
+
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/6bd6537e-e971-444d-9705-7119995fd462
+
 
 <br>
 
@@ -82,7 +94,9 @@ Na borda da esquerda se a posição x do Greg for menor que -33 ela será igual 
 
 # Colisão funcionando
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/75778da4-7b72-4fcf-ad7d-cb69d527893c
+
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/eb5caa22-29f0-4450-8d33-063c832f215a
+
 
 <br>
 
@@ -95,8 +109,11 @@ A função Clipping Path permite que você crie uma região de recorte que defin
 
 # Clipping Path funcionando
 
-https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/b08f2ea8-426d-4019-aa3f-34daf74ffe1c
 
+https://github.com/Leo-Macedo/Transformacoes_DJW/assets/127630556/8b6dc101-5e5d-4090-9c94-157cc040cfa0
+
+
+<br>
 # ClearRect
 <img src="img/clear.jpg"><br>
 
